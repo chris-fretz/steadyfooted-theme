@@ -41,3 +41,11 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Node Modules from Node/NPM
+node_modules
+
+# Visual Studio Code
+.vscode
+
+dist
