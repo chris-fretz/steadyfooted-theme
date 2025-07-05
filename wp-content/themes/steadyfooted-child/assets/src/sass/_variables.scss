@@ -1,0 +1,34 @@
+/**********************************
+ * Table of Contents
+    * Colors
+    * Fonts
+    * Misc
+**********************************/
+
+/**********************************
+* Colors
+**********************************/
+$black: #000;
+$grey: #303030;
+$white: #fff;
+
+$active_color: #FB9400; // CHANGE ME
+
+$form-error: #FF0014; // CHANGE ME
+$form-focus: #FB9400; // CHANGE ME
+
+$color-primary: #3ACC9A; // CHANGE ME
+$color-secondary: #1C654C; // CHANGE ME
+
+/**********************************
+* Fonts
+**********************************/
+
+// Enqueue the correct fonts in includes/functions/enqueue-files.php within the function wtm_digital_enqueue_assets().
+$body-font: "Roboto", sans-serif; // CHANGE ME
+$header-font: "Roboto", sans-serif; // CHANGE ME
+
+/**********************************
+* Misc
+**********************************/
+$transition: 0.25s all ease-in-out;

@@ -1,0 +1,52 @@
+@use "variables" as *;
+@use "functions" as *;
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: $body-font;
+	letter-spacing: 0;
+	color: $black;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: to-rem(45);
+}
+h2 {
+	font-size: to-rem(32);
+}
+h3 {
+	font-size: to-rem(28);
+}
+h4 {
+	font-size: to-rem(24);
+}
+h5 {
+	font-size: to-rem(20);
+}
+h6 {
+	font-size: to-rem(17);
+}
+p {
+	margin-top: 0;
+	font-size: to-rem(16);
+	line-height: 1.5;
+	font-family: $body-font;
+	color: $grey;
+}
+a {
+	color: royalblue;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: green;
+	}
+}
+ul, ol, li {
+	font-family: $body-font;
+	color: $grey;
+}
+ul, ol {
+	margin: 0;
+}

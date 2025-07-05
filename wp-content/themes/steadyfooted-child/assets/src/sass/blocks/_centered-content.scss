@@ -1,0 +1,19 @@
+@use "variables" as *;
+@use "functions" as *;
+
+.centered-content {
+	position: relative;
+
+	&__content {
+		text-align: center;
+		max-width: 875px;
+		width: 100%;
+		margin: 0 auto;
+
+		p {
+			&:last-of-type {
+				margin: 0;
+			}
+		}
+	}
+}

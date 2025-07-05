@@ -1,0 +1,10 @@
+// Functions and Mixins
+
+// Converts px to rem (e.g. font-size: 16px; becomes font-size: to-rem(16);
+$html-font-size: 16;
+
+@function to-rem($size) {
+    $rem-size: calc($size / $html-font-size) * 1rem;
+
+    @return $rem-size;
+}
